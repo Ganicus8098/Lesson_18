@@ -431,33 +431,33 @@
 	}
 	.track-hiking-items {
 		row-gap: 10px;
+		margin-left: 40px;
 	}
 	.track-hiking-items__title-item {
 		font-size: 30px;
-		margin-left: 40px;
 	}
 	.track-hiking-items__text-item,
-   .mount-item__text-item,
-   .place-item__text-item,
-   .camp-item__text-item {
-	   font-size: 14px;
+        .mount-item__text-item,
+        .place-item__text-item,
+        .camp-item__text-item {
+	       font-size: 14px;
    }
 	.track-hiking-items__image-item {
 		width: 395px;
 		flex: 0 0 10%;
-	}
-	.mount-item__title-item,
-   .place-item__title-item,
-   .camp-item__title-item {
-	   font-size: 22px;
    }
 	.mount-item__title-item,
-   .place-item__title-item,
-   .camp-item__title-item:not(:last-child) {
-	   margin-bottom: 0px;
+        .place-item__title-item,
+        .camp-item__title-item {
+	       font-size: 22px;
+   }
+	.mount-item__title-item,
+        .place-item__title-item,
+        .camp-item__title-item:not(:last-child) {
+	       margin-bottom: 0px;
    }
 	/* todo: CONTACTS PAGE */
-      /* ! MAIN */
+            /* ! MAIN */
 	.contacts {
 		padding: 40px 0;
 	}
