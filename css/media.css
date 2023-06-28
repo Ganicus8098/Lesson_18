@@ -617,7 +617,7 @@
 		font-size: 16px;
 	}
 	/* todo: TOURS PAGE */
-      /* ! HEADER */
+            /* ! HEADER */
 	.page-header-wrapper__container {
 		padding: 20px 15px;
 	}
@@ -675,15 +675,15 @@
 	}
 	.card-item-bigger__image,
 	.card-item-tall__image {
-      height: 180.61px;
+                height: 180.61px;
 	}
-		/* ! Card-item-tall */
+	    /* ! Card-item-tall */
 	.card-item-tall__image-item {
 		width: 290px;
 	}
 
 	/* todo: CONTACTS PAGE */
-      /* ! MAIN */
+              /* ! MAIN */
 	.contacts {
 		padding: 30px 0;
 	}
@@ -700,8 +700,8 @@
 		font-size: 20px;
 	}
 	.phone-adress-items__link-tel,
-   .phone-adress-items__link-mail {
-	   font-size: 16px;
+        .phone-adress-items__link-mail {
+	        font-size: 16px;
 		padding: 0 0 0 30px;
    }
 	.phone-adress-items__link-tel::before {
@@ -774,4 +774,58 @@
 		font-size: 14px;
 		padding: 10px 20px;
 	}
+		/* todo: TRACKING-PAGE */
+		/* ! HEADER */
+		.tracking {
+			padding: 10px 0;
+	}
+      /* ! MAIN */
+	.tracking {
+		padding: 30px 0;
+	}
+	.tracking__tours-tracking-wrapper {
+		flex-wrap: wrap;
+	}
+	.tours-links {
+		flex: 0 0 100%;
+	}
+	.tours-links:not(:last-child) {
+		margin-bottom: 20px;
+	}
+	.tours-links__title-item {
+		text-align: center;
+		font-size: 26px;
+	}
+	.tours-links a {
+		font-size: 16px;
+		padding: 16px 0;
+	}
+	.track-hiking-items {
+		margin-left: 0;
+	}
+	.track-hiking-items__title-item {
+		text-align: center;
+		font-size: 26px;
+	}
+	.track-hiking-items__text-item,
+        .mount-item__text-item,
+        .place-item__text-item,
+        .camp-item__text-item {
+	       font-size: 16px;
+   }
+	.track-hiking-items__image-item {
+	       width: 290px;
+	       flex: 0 0 0;
+	}
+	.mount-item__title-item,
+        .place-item__title-item,
+        .camp-item__title-item {
+	       font-size: 20px;
+	       text-align: center;
+   }
+	.mount-item__title-item,
+        .place-item__title-item,
+        .camp-item__title-item:not(:last-child) {
+	       margin-bottom: 10px;
+   }
 }
