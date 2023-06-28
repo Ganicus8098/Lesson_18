@@ -505,7 +505,7 @@
 		height: 16px;
 		background: url('../img/page-1/header/block-1/burger-icon.svg') 0 0 / 16px no-repeat;
 		right: 0;
-		top: -10;
+		top: -10px;
 	}
 	.titles-center__title {
 		font-size: 18px;
