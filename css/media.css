@@ -420,7 +420,7 @@
 	}
       /* ! MAIN */
 	.tracking {
-		padding: 70px 0;
+		padding: 50px 0;
 	}
 	.tours-links__title-item {
 		font-size: 22px;
@@ -774,12 +774,8 @@
 		font-size: 14px;
 		padding: 10px 20px;
 	}
-		/* todo: TRACKING-PAGE */
-		/* ! HEADER */
-		.tracking {
-			padding: 10px 0;
-	}
-      /* ! MAIN */
+	   /* todo: TRACKING-PAGE */
+                 /* ! MAIN */
 	.tracking {
 		padding: 30px 0;
 	}
