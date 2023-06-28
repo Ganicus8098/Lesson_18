@@ -434,6 +434,7 @@
 	}
 	.track-hiking-items__title-item {
 		font-size: 30px;
+		margin-left: 40px;
 	}
 	.track-hiking-items__text-item,
    .mount-item__text-item,
@@ -442,7 +443,7 @@
 	   font-size: 14px;
    }
 	.track-hiking-items__image-item {
-		width: 310px;
+		width: 395px;
 		flex: 0 0 10%;
 	}
 	.mount-item__title-item,
