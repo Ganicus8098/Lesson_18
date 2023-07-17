@@ -644,8 +644,8 @@
 	}
 	.titles-content__button-scroll-item {
 		left: 50%;
-		bottom: -4px;
-		transform: translate(-50%, -4px);
+		bottom: -5px;
+		transform: translate(-50%, -5px);
   }
 	.titles-content__btn-scroll::after {
 	   width: 14px;
