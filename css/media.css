@@ -642,12 +642,12 @@
 	
 	/* ! Titles - content */
 	.titles-content {
-	   min-height: 75vh;
-	   padding: 80px 0 50px;
+	   min-height: 73vh;
+	   padding: 50px 0 50px;
 		margin-bottom: 0;
    }
 	.titles-center h1 {
-		font-size: 28px;
+		font-size: 36px;
 	}
 	.titles-center p {
 		font-size: 16px;
