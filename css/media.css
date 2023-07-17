@@ -642,7 +642,8 @@
 	
 	/* ! Titles - content */
 	.titles-content {
-		padding: 170px 0 50px;
+		min-height: 90vh
+		padding: 100px 0 50px;
 		margin-bottom: 0;
    }
 	.titles-center h1 {
