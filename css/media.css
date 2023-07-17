@@ -653,8 +653,9 @@
 		font-size: 16px;
 	}
 	.titles-content__button-scroll-item {
+	        left: 50%;
 		bottom: 7px;
-		transform: translate(-48%, -7%);
+		transform: translate(-50%, -7px);
   }
 	.titles-content__btn-scroll::after {
 	   width: 14px;
