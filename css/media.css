@@ -348,7 +348,6 @@
 
 	/* ! Titles - content */
 	.titles-content {
-		min-height: 100vh;
 		padding: 70px 0 55px;
 		align-items: flex-start;
 		margin-bottom: 0;
@@ -644,8 +643,7 @@
 	
 	/* ! Titles - content */
 	.titles-content {
-		min-height: 100vh;
-		padding: 110px 0 50px;
+		padding: 160px 0 50px;
 		margin-bottom: 0;
    }
    .titles-content__image {
@@ -658,8 +656,8 @@
 		font-size: 16px;
 	}
 	.titles-content__button-scroll-item {
-		bottom: -5px;
-		transform: translate(-48%, 5%);
+		bottom: 7px;
+		transform: translate(-48%, -7%);
   }
 	.titles-content__btn-scroll::after {
 	   width: 14px;
