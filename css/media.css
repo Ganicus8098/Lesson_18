@@ -1,0 +1,958 @@
+/* Tablet */
+/* todo: MAIN-PAGE */
+
+/* ! HEADER */
+@media (max-width: 1199px) {
+   [class *="__container"] {
+      max-width: 900px;
+   }
+   .logo-menu-items__link-logo,
+   .footer-content__link-logo {
+      font-size: 35px;
+   }
+   .logo-menu-items__list {
+	   column-gap: 25px;
+   }
+   .logo-menu-items__link {
+	   font-size: 18px;
+   }
+
+	/* ! MAIN */
+	/* ! Titles - center */
+	.titles-center h1 {
+		font-size: 50px;
+	}
+	.titles-center p {
+		font-size: 22px;
+	}
+	.titles-content__button-scroll-item {
+		left: 48%;
+		bottom: -2px;
+		transform: translate(-48%, 2px);
+	}
+	.titles-content__btn-scroll {
+		font-size: 16px;
+	}
+	.titles-content__btn-scroll::after {
+		width: 22px;
+		height: 22px;
+		background: url('../img/page-1/header/block-1/white-arrow-down.svg') 0 0 / 22px no-repeat;
+		bottom: 2px;
+	}
+	.titles-content__btn-scroll:hover::after {
+		background: url('../img/page-1/header/block-1/green-arrow-down.svg') 0 0 / 22px no-repeat;
+	}
+	.titles-content__btn-scroll:active::after {
+		background: url('../img/page-1/header/block-1/black-arrow-down.svg') 0 0 / 22px no-repeat;
+	}
+
+	/* ! Routes  */
+   .routes {
+	   padding: 50px 0;
+   }
+   .routes__cards:not(:last-child) {
+	   margin-bottom: 100px;
+   }
+	.card-content__title-item h2 {
+		font-size: 42px;
+	}
+	.card-content__title-item p {
+		font-size: 18px;
+	}
+	.card-content__title-item:not(:last-child) {
+		margin-bottom: 30px;
+  }
+	.card-content__link-btn {
+		font-size: 18px;
+		padding: 12px 35px;
+	}
+	.card-image {
+		flex: 0 0 53.71%;
+	}
+	.card-image__image {
+		height: 460px;
+	}
+
+	/* ! FOOTER */
+
+	.footer-widget-wrappers {
+		width: 60.22%;
+	}
+	.footer-widget_info {
+		flex: 0 0 20.07%;
+	}
+	.footer-widget_services,
+   .footer-widget_contacts {
+		flex: 0 0 33.06%;
+	   margin-left: 25px;
+   }
+	.footer-widget__title-item h3 {
+		font-size: 22px;
+	}
+	.footer-widget a {
+		font-size: 17px;
+	}
+	.footer-widget__text-item {
+		font-size: 17px;
+	}
+
+
+	/* todo: TOURS PAGE */
+   /* ! HEADER */
+
+	/* ! MAIN */
+   .tours__main-title-center {
+	   margin-bottom: 50px;
+   }
+	.main-title-center h1 {
+	   font-size: 50px;
+   }
+	/* ! Cards-item */
+   .card-item__image-item {
+		flex: 0 0 355px;
+		width: 420px;
+   }
+	.card-item__title-item,
+   .card-item-bigger__title-item,
+   .card-item-tall__title-item {
+	padding: 20px 30px;
+   }
+	.card-item__title-item h2,
+   .card-item-bigger__title-item h2,
+   .card-item-tall__title-item h2 {
+	   font-size: 26px;
+   }
+	/* ! Cards-item-bigger */
+   .cards-wrapper-column {
+		row-gap: 30px;
+	}
+	.card-item-bigger__image-item {
+		flex: 0 0 289px;
+		width: 470px;
+   }
+   .card-item-bigger__image {
+		height: 289px;
+	}
+	/* ! Card-item-tall */
+   .card-item-tall__image-item {
+		flex: 0 0 680px;
+	   width: 370px;
+   }
+
+
+	/* todo: TRACKING-PAGE */
+   /* ! MAIN */
+	.tours-links {
+		flex: 0 0 27.5%;
+  }
+	.tours-links__title-item h1 {
+		font-size: 26px;
+	}
+	.tours-links a {
+		font-size: 18px;
+		padding: 20px 0;
+	}
+	.track-hiking-items {
+		row-gap: 20px;
+	}
+	.track-hiking-items__titles-item {
+		flex: 0 0 16%;
+		width: 540px;
+	}
+	.track-hiking-items__titles-item h2 {
+		font-size: 48px;
+	}
+	.track-hiking-items__image-item {
+		flex: 0 0 316px;
+		width: 540px;
+   }
+  .track-hiking-items__texts-item {
+	flex: 0 0 20%;
+	width: 540px;
+   }
+	.mount-item {
+		flex: 0 0 11%;
+	}
+	.place-item {
+		flex: 0 0 9%;
+	}
+	.camp-item {
+		flex: 0 0 16%;
+	}
+	.mount-item__title-item,
+	.place-item__title-item,
+	.camp-item__title-item {
+		width: 540px;
+	}
+	.track-hiking-items__titles-item p,
+	.track-hiking-items__texts-item p,
+	.mount-item__title-item p,
+	.place-item__title-item p,
+	.camp-item__title-item p {
+		font-size: 18px;
+	}
+	.track-hiking-items__image-item {
+		width: 540px;
+	}
+	.mount-item__title-item h3,
+	.place-item__title-item h3,
+	.camp-item__title-item h3 {
+		font-size: 32px;
+	}
+
+
+	/* todo: CONTACTS PAGE */
+   /* ! MAIN */
+	.contacts__title-item h1 {
+		font-size: 44px;
+	}
+	.phone-adress-items__title-item h2 {
+		font-size: 26px;
+	}
+	.phone-adress-items__link-tel,
+   .phone-adress-items__link-mail {
+	   font-size: 18px;
+		padding: 0 0 0 30px;
+   }
+	.phone-adress-items__link-tel::before {
+		width: 18px;
+		height: 18px;
+		background: url('../img/page-4/main/block-1/black-phone-icon.svg') 0 0 / 18px no-repeat;
+		top: 4px;
+   }
+	.phone-adress-items__link-tel:hover::before {
+		background: url('../img/page-4/main/block-1/green-phone-icon.svg') 0 0 / 18px no-repeat;
+	}
+	.phone-adress-items__link-tel:active::before {
+		background: url('../img/page-4/main/block-1/red-phone-icon.svg') 0 0 / 18px no-repeat;
+	}
+	.phone-adress-items__link-mail::before {
+		width: 18px;
+		height: 18px;
+		background: url('../img/page-4/main/block-1/black-mail-icon.svg') 0 0 / 18px no-repeat;
+		top: 4px; 
+	}
+	.phone-adress-items__link-mail:hover::before {
+		background: url('../img/page-4/main/block-1/green-mail-icon.svg') 0 0 / 18px no-repeat;
+	}
+	.phone-adress-items__link-mail:active::before {
+		background: url('../img/page-4/main/block-1/red-mail-icon.svg') 0 0 / 18px no-repeat;
+	}
+	.phone-adress-items__text-item {
+		font-size: 18px;
+	}
+	/* ! Map-item */
+	.map-item__title-item h2 {
+		font-size: 26px;
+	}
+	.map-item__image-item {
+		width: 370px;
+	}
+	/* ! Application-item */
+   .application-item {
+	   flex: 0 0 50%;
+	   padding: 30px;
+   }
+	.application-item__title-item h2 {
+		font-size: 26px;
+	}
+	.personal-data__name-input,
+   .personal-data__phone-input,
+   .personal-data__mail-input {
+	   width: 100%;
+	   padding: 10px 60px 13px 20px;
+	   font-size: 16px;
+   }
+	::placeholder {
+		font-size: 16px;
+	}
+	.personal-data__phone-item {
+		flex: 0 0 48.50%;
+	}
+	.personal-data__mail-item {
+		flex: 0 0 48.50%;
+		margin-left: 10px;
+	}
+	/* ! quantity-clients */
+   .quantity-clients:not(:last-child) {
+	   margin-bottom: 20px;
+   }
+	.quantity-clients__title {
+		font-size: 18px;
+	}
+	.quantity-clients__label-radio {
+		font-size: 16px;
+	}
+	.quantity-clients__label-radio::before {
+		flex: 0 0 15px;
+		height: 15px;
+	}
+	.quantity-clients__label-radio::after {
+		width: 7px;
+		height: 7px;
+		left: 4px;
+		top: 4px;
+	}
+	/* ! Directions-item */
+	.directions__title {
+		font-size: 18px;
+	}
+	.directions__input-check:checked + .directions__label-check::before {
+		background: url('../img/page-4/main/block-1/green-check-icon.svg') 0 0 / 16px no-repeat;
+	}
+	.directions__label-check {
+		font-size: 16px;
+		align-items: flex-start;
+	}
+	.directions__label-check::before {
+		flex: 0 0 16px;
+		height: 16px;
+		background: url('../img/page-4/main/block-1/checkbox-icon.svg') 0 0 / 16px no-repeat;
+	}
+	.personal-data__btn-send {
+		font-size: 16px;
+		padding: 10px 30px;
+	}
+}
+
+
+/* Mobile */
+    /* todo: MAIN-PAGE */
+
+       /* ! HEADER */
+@media (max-width: 899px) {
+   [class *="__container"] {
+      max-width: 600px;
+	}
+	header {
+		padding: 15px 0;
+	}
+	.logo-menu-items__link-logo,
+   .footer-content__link-logo {
+      font-size: 25px;
+   }
+	.logo-menu-items__list {
+		display: none;
+	}
+	
+	/* ! MAIN */
+
+	/* ! Titles - content */
+	.titles-content {
+		padding: 50px 0 55px;
+		margin-bottom: 0;
+   }
+	.titles-center h1 {
+		font-size: 46px;
+	}
+	.titles-center p {
+		font-size: 22px;
+	}
+	.titles-content__button-scroll-item {
+		bottom: 14px;
+  }
+	.titles-content__btn-scroll {
+		font-size: 14px;
+		padding-bottom: 30px;
+   }
+   .titles-content__btn-scroll::after {
+	   width: 18px;
+	   height: 18px;
+	   background: url('../img/page-1/header/block-1/white-arrow-down.svg') 0 0 / 18px no-repeat;
+	   bottom: 7px;
+   }
+   .titles-content__btn-scroll:hover::after {
+	   background: url('../img/page-1/header/block-1/green-arrow-down.svg') 0 0 / 18px no-repeat;
+   }
+   .titles-content__btn-scroll:active::after {
+	   background: url('../img/page-1/header/block-1/black-arrow-down.svg') 0 0 / 18px no-repeat;
+   }
+
+  /* ! Routes */
+   .routes {
+      padding: 40px 0;
+   }
+   .cards {
+   	flex-direction: column-reverse;
+   }
+   .cards:nth-child(2n + 2) {
+   	flex-direction: column-reverse;
+   }
+   .routes__cards:not(:last-child) {
+   	margin-bottom: 70px;
+   }
+   .card-image {
+   	flex: 0 0 330px;
+		width: 500px;
+		margin-bottom: 20px;
+		align-self: center;
+   }
+	.card-image__image {
+		height: 330px;
+		width: 100%;
+	}
+   .card-image_left {
+   	padding-left: 0;
+		margin-left: 0;
+   }
+	.card-image_rigth {
+		margin-right: 0;
+	}
+	.card-content__title-item h2 {
+		font-size: 34px;
+		text-align: center;
+	}
+   .card-content__text-item {
+   	font-size: 16px;
+   }
+   .card-content__text-item:not(:last-child) {
+   	margin-bottom: 30px;
+   }
+   .card-content__link-btn {
+   	font-size: 16px;
+   	padding: 10px 20px;
+   }
+
+	/* ! FOOTER */
+	#footer-content {
+		padding: 30px 0;
+	}
+	.footer-content__footer-row {
+		flex-wrap: wrap;
+		row-gap: 20px;
+	}
+	.footer-content__logo-item {
+		margin-bottom: 20px;
+	}
+	.footer-widget-wrappers {
+		width: 100%;
+		margin-left: 0;
+		padding-top: 0;
+	}
+	.footer-widget_info {
+		flex: 0 0 30%;
+	}
+	.footer-widget_services,
+   .footer-widget_contacts {
+		flex: 0 0 31.50%;
+	   margin-left: 20px;
+   }
+	.footer-widget__title-item h3 {
+		font-size: 18px;
+	}
+	.footer-widget a {
+		font-size: 16px;
+	}
+	.footer-widget__text-item {
+		font-size: 16px;
+	}
+	.footer-copyright__text-item p {
+		font-size: 10px;
+  }
+
+		/* todo: TOURS PAGE */
+         /* ! HEADER */
+   .header-item {
+	   padding: 10px 0;
+   }
+	.header-item__container {
+		margin: 0 auto;
+   }
+		/* ! MAIN */
+	.tours {
+		padding: 60px 0;
+	}
+	.tours__main-title-center {
+		margin-bottom: 40px;
+	}
+	.main-title-center h1 {
+	   font-size: 38px;
+   }
+	.cards-wrappers {
+		margin: 0;
+		flex-wrap: wrap;
+		row-gap: 30px;
+	}
+	.cards-wrapper {
+		padding: 0;
+	}
+		/* ! Cards-item */
+	.cards-wrappers:not(:last-child) {
+		margin-bottom: 30px;
+	}
+	.card-item__image-item {
+		flex: 0 0 355px;
+		width: 570px;
+	}
+		/* ! Cards-item-bigger */
+	.card-item-bigger__image-item {
+		flex: 0 0 355px;
+		width: 570px;
+	}
+	.card-item-bigger__image {
+		height: 355px;
+	}
+		/* ! Card-item-tall */
+	.card-item-tall__image-item {
+		flex: 0 0 355px;
+		width: 570px;
+	}
+	.card-item-tall__image {
+		height: 355px;
+	}
+
+
+	/* todo: TRACKING-PAGE */
+		/* ! HEADER */
+	.header-item {
+		padding: 0;
+	}
+      /* ! MAIN */
+	.tracking {
+		padding: 90px 0 50px;
+	}
+	.tracking__tours-tracking-wrapper {
+		flex-wrap: wrap;
+		row-gap: 30px;
+   }
+   .tours-links {
+	   flex: 0 0 100%;
+   }
+   .track-hiking-items {
+	   margin-left: 0;
+   }
+   .track-hiking-items__titles-item h2 {
+		font-size: 36px;
+		text-align: center;
+	}
+	.tours-links a {
+		font-size: 18px;
+		padding: 18px 0;
+	}
+	.track-hiking-items {
+		margin-left: 0;
+	   padding-left: 0;
+	}
+	.track-hiking-items__titles-item {
+		flex: 0 0 12%;
+		width: 585px;
+	}
+	.track-hiking-items__title-item {
+		font-size: 28px;
+	}
+	.track-hiking-items__titles-item h2:not(:last-child) {
+		margin-bottom: 20px;
+	}
+	.track-hiking-items__image-item {
+		flex: 0 0 20%;
+		width: 570px;
+	}
+	.track-hiking-items__texts-item {
+		flex: 0 0 19%;
+		width: 570px;
+	}
+   .mount-item__title {
+		flex: 0 0 13%;
+   }
+   .place-item__title {
+		flex: 0 0 9%;
+   }
+   .camp-item__title {
+		flex: 0 0 9%;
+   }
+	.mount-item__title-item,
+	.place-item__title-item,
+	.camp-item__title-item {
+		width: 570px;
+	}
+	.mount-item__title-item h3,
+   .place-item__title-item h3,
+   .camp-item__title-item h3 {
+	   font-size: 22px;
+   }
+	.mount-item__title-item h3,
+   .place-item__title-item h3,
+   .camp-item__title-item h3:not(:last-child) {
+	   margin-bottom: 10px;
+   }
+
+
+	/* todo: CONTACTS PAGE */
+      /* ! MAIN */
+	.contacts__title-item h1 {
+		font-size: 32px;
+		text-align: center;
+	}
+	.contacts__contacts-wrapper {
+		flex-wrap: wrap;
+		flex-direction: column;
+		row-gap: 20px;
+	}
+	/* ! Phone-adress-items */
+   .phone-adress-items__title-item h2,
+	.map-item__title-item h2,
+	.application-item__title-item h2 {
+	   font-size: 26px;
+}
+	/* ! Map-item */
+	.map-item__image-item {
+		flex: 0 0 15.88%;
+		width: 570px;
+	}
+	/* ! Application-item */
+	.application-item {
+		margin-left: 0px;
+	}
+	.personal-data__phone-item {
+		flex: 0 0 49%;
+	}
+	.personal-data__mail-item {
+		flex: 0 0 49%;
+		margin-left: 10px;
+	}
+}
+
+
+
+/* Mobile XS */
+/* todo: MAIN-PAGE */
+      /* ! HEADER */
+   header {
+		padding: 10px 0;
+	}
+@media (max-width: 599px) {
+   [class *="__container"] {
+      max-width: 320px;
+   }
+	.logo-menu-items__link-logo,
+   .footer-content__link-logo {
+      font-size: 24px;
+   }
+	/* ! MAIN */
+	
+	/* ! Titles - content */
+	.titles-content {
+	   min-height: 73vh;
+	   padding: 50px 0 50px;
+		margin-bottom: 0;
+   }
+	.titles-center h1 {
+		font-size: 36px;
+	}
+	.titles-center p {
+		font-size: 16px;
+	}
+	.titles-content__button-scroll-item {
+		left: 50%;
+		bottom: -4px;
+		transform: translate(-50%, -4px);
+  }
+	.titles-content__btn-scroll::after {
+	   width: 14px;
+	   height: 14px;
+	   background: url('../img/page-1/header/block-1/white-arrow-down.svg') 0 0 / 14px no-repeat;
+	   bottom: 12px;
+   }
+   .titles-content__btn-scroll:hover::after {
+	   background: url('../img/page-1/header/block-1/green-arrow-down.svg') 0 0 / 14px no-repeat;
+   }
+	.titles-content__btn-scroll:active::after {
+		background: url('../img/page-1/header/block-1/black-arrow-down.svg') 0 0 / 14px no-repeat;
+	}
+	
+	   /* ! Routes */
+	.routes {
+	   padding-top: 30px;
+   }
+	.routes__cards:not(:last-child) {
+   	margin-bottom: 30px;
+   }
+   .card-image {
+		flex: 0 0 290px;
+   	width: 290px;
+   }
+	.card-image__image {
+		height: 290px;
+	}
+	.card-content {
+		flex: 0 0 470px;
+		align-self: center;
+  }
+	.card-content_left {
+		margin-left: 0px;
+	}
+	.card-content__title-item {
+		text-align: center;
+	}
+	.card-content__title-item h2 {
+		font-size: 25px;
+	}
+   .content__title-item p {
+	   font-size: 16px;
+   }
+	.card-content__text-item:not(:last-child) {
+		margin-bottom: 30px;
+	}
+	.card-content__link-btn {
+		display: inline-block;
+		margin-left: 50%;
+		transform: translateX(-50%);
+	}
+		/* ! FOOTER */
+	#footer-content {
+		padding: 30px 0;
+	}
+	.footer-content__footer-row {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.footer-copyright {
+		margin-bottom: 30px;
+	}
+	.footer-widget-wrappers {
+      flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		row-gap: 30px;
+	}
+	.footer-widget_info {
+		text-align: center;
+		flex: 0 0 80%;
+	}
+	.footer-widget_services,
+	.footer-widget_contacts {
+		flex: 0 0 80%;
+		text-align: center;
+		margin-left: 0;
+	}
+	.footer-widget__title-item h3 {
+		font-size: 20px;
+	}
+	.footer-widget__title-item {
+		margin-bottom: 20px;
+  }
+	.footer-widget a {
+		font-size: 16px;
+	}
+	.footer-widget__text-item {
+		font-size: 16px;
+	}
+
+
+	/* todo: TOURS PAGE */
+      /* ! MAIN */
+
+	.tours {
+		padding: 60px 0;
+	}
+	.tours__main-title-center {
+		margin-bottom: 20px;
+	}
+	.main-title-center h1 {
+	   font-size: 30px;
+   }
+	   /* ! Cards-item */
+	.card-item__image-item {
+		flex: 0 0 220px;
+		width:290px;
+	}
+	.card-item__image {
+		height: 220px;
+	}
+	.card-item__title-item,
+   .card-item-bigger__title-item,
+   .card-item-tall__title-item {
+	   padding: 12px 20px;
+   }
+   .card-item__title-item h2,
+   .card-item-bigger__title-item h2,
+   .card-item-tall__title-item h2 {
+	   font-size: 20px;
+   }
+	.card-item__title,
+	.card-item-bigger__title,
+	.card-item-tall__title {
+		font-size: 18px;
+		padding: 12px 30px;
+	}
+		/* ! Cards-item-bigger */
+	.cards-wrapper-column {
+		row-gap: 30px;
+	}
+	.card-item-bigger__image-item {
+		flex: 0 0 220px;
+		width: 290px;
+	}
+	.card-item-bigger__image {
+		height: 220px;
+	}
+		/* ! Card-item-tall */
+	.card-item-tall__image-item {
+		flex: 0 0 220px;
+		width: 290px;
+	}
+	.card-item-tall__image {
+		height: 220px;
+	}
+
+
+	/* todo: TRACKING-PAGE */
+      /* ! MAIN */
+	.tracking {
+		padding: 70px 0 50px;
+	}
+	.tours-links__title-item h1 {
+		text-align: center;
+   }
+	.tours-links a {
+		font-size: 16px;
+	}
+	.track-hiking-items__titles-item {
+		flex: 0 0 15%;
+		width: 290px;
+	}
+   .track-hiking-items__titles-item h2 {
+		font-size: 30px;
+	}
+	.track-hiking-items__title-item {
+		text-align: center;
+		font-size: 26px;
+	}
+	.track-hiking-items__image-item {
+		flex: 0 0 12%;
+		width: 290px;
+	}
+	.track-hiking-items__image {
+		height: 220px;
+	}
+	.track-hiking-items__texts-item {
+		flex: 0 0 26%;
+		width: 290px;
+	}
+	.mount-item {
+		flex: 0 0 15%;
+   }
+   .place-item {
+		flex: 0 0 8%;
+   }
+   .camp-item {
+		flex: 0 0 9%;
+   }
+	.mount-item__title-item,
+	.place-item__title-item,
+	.camp-item__title-item {
+		width: 290px;
+	}
+	.mount-item__title-item h3,
+   .place-item__title-item h3,
+   .camp-item__title-item h3 {
+	   font-size: 20px;
+   }
+	.track-hiking-items__titles-item p,
+   .track-hiking-items__texts-item p,
+   .mount-item__title-item p,
+   .place-item__title-item p,
+   .camp-item__title-item p {
+	   font-size: 16px;
+   }
+
+	/* todo: CONTACTS PAGE */
+   /* ! MAIN */
+	.contacts__title-item h1 {
+		font-size: 26px;
+	}
+	.contacts__contacts-wrapper {
+		row-gap: 20px;
+	}
+	.phone-adress-items {
+		width: 290px;
+	}
+	.phone-adress-items:not(:last-child) {
+		margin-bottom: 20px;
+	}
+	.phone-adress-items__title-item h2 {
+		font-size: 20px;
+	}
+	.phone-adress-items__link-tel,
+	.phone-adress-items__link-mail {
+		font-size: 16px;
+		padding: 0 0 0 30px;
+	}
+	.phone-adress-items__link-tel::before {
+		width: 16px;
+		height: 16px;
+		background: url('../img/page-4/main/block-1/black-phone-icon.svg') 0 0 / 16px no-repeat;
+		top: 3px;
+	}
+	.phone-adress-items__link-tel:hover::before {
+		background: url('../img/page-4/main/block-1/green-phone-icon.svg') 0 0 / 16px no-repeat;
+	}
+	.phone-adress-items__link-tel:active::before {
+		background: url('../img/page-4/main/block-1/red-phone-icon.svg') 0 0 / 16px no-repeat;
+	}
+	.phone-adress-items__link-mail::before {
+		width: 16px;
+		height: 16px;
+		background: url('../img/page-4/main/block-1/black-mail-icon.svg') 0 0 / 16px no-repeat;
+		top: 3px; 
+	}
+	.phone-adress-items__link-mail:hover::before {
+		background: url('../img/page-4/main/block-1/green-mail-icon.svg') 0 0 / 16px no-repeat;
+	}
+	.phone-adress-items__link-mail:active::before {
+		background: url('../img/page-4/main/block-1/red-mail-icon.svg') 0 0 / 18px no-repeat;
+	}
+	.phone-adress-items__text-item {
+		font-size: 16px;
+	}
+	/* ! Map-item */
+	.map-item__title-item h2 {
+		font-size: 20px;
+	}
+	.map-item__image-item {
+		flex: 0 0 15.88%;
+		width: 290px;
+	}
+	.map-item__image {
+		height: 220px;
+	}
+	/* ! Application-item */
+	.application-item {
+		margin-left: 0px;
+	}
+	.application-item__title-item h2 {
+		font-size: 20px;
+		text-align: center;
+	}
+	.personal-data__name-input,
+	.personal-data__phone-input,
+	.personal-data__mail-input {
+		width: 100%;
+		padding: 10px 20px 13px 20px;
+		font-size: 14px;
+	}
+	::placeholder {
+		font-size: 14px;
+	}
+	.personal-data__phone-item {
+		flex: 0 0 47.70%;
+	}
+	.personal-data__mail-item {
+		flex: 0 0 47.70%;
+		margin-left: 10px;
+	}
+	/* ! Directions-item */
+	.personal-data__button-send {
+		text-align: center;
+	}
+	.personal-data__btn-send {
+		font-size: 14px;
+		padding: 10px 20px;
+	}
+	.personal-data__title-item h3,
+	.quantity-clients__title-item h3,
+	.directions__title-item h3 {
+		font-size: 16px;
+	}
+}
+
