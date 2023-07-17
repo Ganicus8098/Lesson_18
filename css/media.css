@@ -348,7 +348,7 @@
 
 	/* ! Titles - content */
 	.titles-content {
-		min-height: 76vh;
+		min-height: 100vh;
 		padding: 70px 0 55px;
 		align-items: flex-start;
 		margin-bottom: 0;
@@ -644,7 +644,7 @@
 	
 	/* ! Titles - content */
 	.titles-content {
-		min-height: 72vh;
+		min-height: 100vh;
 		padding: 110px 0 50px;
 		margin-bottom: 0;
    }
